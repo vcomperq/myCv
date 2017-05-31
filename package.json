@@ -1,0 +1,19 @@
+{
+  "name": "mycv",
+  "version": "0.0.1",
+  "description": "",
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-autoprefixer": "latest",
+    "gulp-concat": "2.6.1",
+    "gulp-cssbeautify": "latest",
+    "gulp-csscomb": "latest",
+    "gulp-csso": "latest",
+    "gulp-less": "latest",
+    "gulp-livereload": "^3.8.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-rename": "latest",
+    "gulp-ruby-sass": "^2.1.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
