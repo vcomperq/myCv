@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <link href="content/reset.css" rel="stylesheet" />
+    <link href="content/font-size.css" rel="stylesheet" />
+    <style>
+
+        body {
+            height:100%;
+            width:100%;
+        }
+
+        .flex-container {
+            display:flex;
+            flex-direction:column;
+            height:100%;
+            width:100%;
+            position:absolute;
+        }
+
+        .main-side {
+            order:1;
+        }
+
+        .left-side {
+            order:2;
+        }
+
+
+        @media (min-width: 992px) {
+
+            .flex-container {
+            
+                flex-direction: row;
+            }
+
+            .main-side {
+                order:2;
+                width:70%;
+            }
+
+            .left-side {
+                order:1;
+                width:30%;
+                background-color:#11C1F3;
+            }
+
+            header {
+        width:70%;
+        border:solid 2px gray;        
+        margin: 0 auto;
+        top:100px;
+        z-index:99999;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align:center;
+    }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Quentin Vancompernolle
+        </h1>
+        <h2>
+            Web Dev
+        </h2>
+    </header>
+    <div class="flex-container">
+        <div class="left-side">
+            Side
+            <img src="content/img/airplane-57-256.png" />
+            <img src="content/img/message-outline-128.png" />
+            <img src="content/img/phone-42-128.png" />
+        </div>
+
+        <div class="main-side">
+            Main
+        </div>
+        
+    </div>
+</body>
+</html>
